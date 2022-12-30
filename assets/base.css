@@ -1,0 +1,51 @@
+html {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+
+}
+header, main {
+    margin-left: 4rem;
+} 
+.logo{
+
+    width: 8rem;
+}
+.sociais {
+    display: block;
+}
+.sociais-ul {
+    padding-top: 0.5rem;
+}
+.social-link{
+    list-style: none;
+    background-color: aliceblue;
+    display: inline;
+    padding-top: 0.5rem;
+    display: inline-block;
+
+}
+.name{
+    background-color: red;
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    display: block;
+}
+.picture {
+    background-color: red;
+    border-bottom: 1px solid red;
+    color: red;
+    margin-bottom: 8rem;
+}
+
+
+
+
+footer {
+    background-color: rgba(34, 33, 33, 0.884);
+}
