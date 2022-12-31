@@ -1,0 +1,19 @@
+
+.contact__title {
+    margin-left: 4rem;
+}
+.contact__description {
+    margin-left: 4rem;
+    width: 20rem;
+    font-size: 20px;
+
+}
+.form{
+    margin-left: 70%;
+    display: block;
+}
+.contact__btn {
+    display: block;
+    margin-left: 18%;
+    margin-top: 0.3rem;
+}
