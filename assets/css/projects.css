@@ -1,3 +1,9 @@
-.projects__btn {
-    margin-left: 80%;
+.projects {
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
 }
