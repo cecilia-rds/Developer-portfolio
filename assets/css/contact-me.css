@@ -1,19 +1,47 @@
-
-.contact__title {
-    margin-left: 4rem;
+.contact {
+    margin-top: 4rem;
+    margin-right: 4rem;
+    padding-top: 4rem;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .contact__description {
+    display: flex;
+    flex-direction: column;
     margin-left: 4rem;
     width: 20rem;
     font-size: 20px;
 
 }
 .form{
-    margin-left: 70%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+input {
+    background-color: rgba(34, 33, 33, 0.884);
+    border-right: none;
+    color: white;
+    height: 2rem;
+    width: 350px;
+
+
+}
+.input-message {
+    margin-right: 1rem;
+    adding-bottom: 4rem;
+
 }
 .contact__btn {
+    background-color: rgba(34, 33, 33, 0.884);
+    border:none;
+    border-bottom: 2px solid rgb(68, 158, 121);
     display: block;
-    margin-left: 18%;
-    margin-top: 0.3rem;
+    margin-left: 50%;
+    margin-top: 1.3rem;
 }
