@@ -4,39 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/base.css">
-    <link rel="stylesheet" href="assets/experience.css">
-    <link rel="stylesheet" href="assets/projects.css">
-    <link rel="stylesheet" href="assets/contact-me.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/contact-me.css">
     <title></title>
 </head>
 <body class="container">
     <header>
-        <img class="logo"src="assets/logo.png">
         <nav class="sociais">
+            <img class="logo"src="assets/img/logo.png">
             <ul class="sociais-ul">
                 <li class="social-link">
-                    <img class="sociais"src="assets/github-50.png">
+                    <img class="social-img"src="assets/img/github.png" width="35px"><href="#"></href>
                 </li>
-                <li class="social-link">
-                    <img src="assets/linkedin-50.png"><href=""></href>
-                </li>
-                <li class="social-link">
-                    <img src="assets/linkedin.png"><href=""></href>
+                <li class="">
+                    <img class="social-img" src="assets/img/icons8-linkedin-48.png"><href="#"></href>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Nice to meet you! <br ckass="name">I'm Cecília Rodrigues.</h1>
-        <p>Based in the Brazil,  I'm a front-end developer </p>
+        <h1 class="title">Nice to meet you! <br>I'm <strong class="name">Cecília Rodrigues.</strong></strong></h1>
+        <p class="description_n1">Based in the Brazil,  I'm a front-end developer </p>
 
-        <button class="btn"><href="">CONTACT ME</href></button>
+        <button class="btn"><href="#">CONTACT ME</href></button>
         
         <img class="picture"src=""> 
 
         <session class="experience">
-            <thead class="experience">
                 <tr lass="table-technologies">
                     <th class="tab">HTML</th>
                     <th class="tab">CSS</th>
@@ -46,52 +43,48 @@
             <tbody>
                 <tr class="table-technologies-time">
                     <td></td>
-
                 </tr>
             </tbody>
         </session>
         <session class="projects">
-            <h2 class="projects__title">Projects</h2>
-            <button class="btn projects__btn">CONTACT ME</button> 
+            <h2 class="title">Projects</h2>
+            <button class="btn">CONTACT ME</button> 
         </session>
                 
     </main>
     <footer>
         <section class="contact">
-            <h2 class="contact__title">Contact</h2>
-            <p class="contact__description">I would love to gear about your project and how i could help. Please fill in the form, and I'll get back to ou soon as possible.</p>
+            <div class="">
+                <h2 class="title contact__title">Contact</h2>
+                <p class="contact__description">I would love to gear about your project and how i could help. Please fill in the form, and I'll get back to ou soon as possible.</p>
+            </div>
+                <form class="form" action="./cadastro_concluido.html" data-form>                
+                    <input name="nome" class="input" type="text" required minlength="2" placeholder="NAME">
+                    <span class="input-mensagem-erro"></span>
+                    <input name="email" class="input" type="email" required placeholder="EMAIL">
+                    <span class="input-mensagem-erro" ></span>
+                    <input name="message" class="input input-message" typd\DDDDDQFDDDe="text" required placeholder="MESSAGE" size="200px">
+                    <span class="input-mensagem-erro"></span>
 
-            <form class="form" action="./cadastro_concluido.html" data-form>
-                    <div class="input-container">                   
-                        <input name="nome" class="input" type="text" required minlength="2" placeholder="NAME">
-                        <span class="input-mensagem-erro"></span>
+                    <button class="btn contact__btn">SEND MESSAGE</button>
+                </form>
+                     
 
-                        <input name="email" class="input" type="email" required placeholder="EMAIL">
-                        <span class="input-mensagem-erro"></span>
 
-                        <input name="message" class="input" type="text" required placeholder="MESSAGE">
-                        <span class="input-mensagem-erro"></span>
-
-                        <button class="btn contact__btn">SEND MESSAGE</button>
-                    </div>
+            
 
         </section>
-        <img class="logo"src="assets/logo.png">
+        <img class="logo"src="assets/img/logo.png">
         <nav class="sociais">
             <ul class="sociais-ul">
                 <li class="social-link">
-                    <img class="sociais"src="assets/github-50.png">
+                    <img class="sociais"src="assets/img/github.svg">
                 </li>
                 <li class="social-link">
-                    <img src="assets/linkedin-50.png"><href=""></href>
-                </li>
-                <li class="social-link">
-                    <img src="assets/linkedin.png"><href=""></href>
+                    <img src="assets/img/icons8-linkedin-48.png"><href="#"></href>
                 </li>
             </ul>
         </nav>
-
     </footer>
-
 </body>
 </html>
