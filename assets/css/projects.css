@@ -7,3 +7,27 @@
     justify-content: space-between;
 
 }
+.project__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.project__link {
+    text-decoration: none;
+}
+project__img{
+    width: 550px;
+}
+.project__name {
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 1.7;
+    text-decoration: none;
+    text-transform: none;
+}
+.project__technologies {
+   color: blanchedalmond;
+   font-size: 18px;
+}
