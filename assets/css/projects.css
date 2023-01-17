@@ -21,13 +21,14 @@ project__img{
     width: 550px;
 }
 .project__name {
-    color: aliceblue;
+    color: white;
     font-size: 22px;
+    font-weight: bold;
     line-height: 1.7;
     text-decoration: none;
     text-transform: none;
 }
 .project__technologies {
-   color: blanchedalmond;
+   color: rgba(255, 255, 255, 0.63);
    font-size: 18px;
 }
