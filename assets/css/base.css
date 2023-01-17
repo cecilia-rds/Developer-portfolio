@@ -1,8 +1,7 @@
 html {
     color: white;
     background-color: black;
-    font-family: 'Chakra Petch', sans-serif;
-    
+    font-family: 'Space Grotesk', sans-serif;
 }
 .title {
     font-size: 2.9rem;
@@ -15,6 +14,7 @@ html {
     width: 30rem;
     margin-bottom: 1.5rem;
     margin-left: 4.5rem;
+    
 }
 .logo{
     display: flex;
@@ -42,6 +42,7 @@ html {
     margin-left: 4.5rem;
     color: white;
     display: block;
+    font-weight: bold;
 }
 footer {
     background-color: rgba(34, 33, 33, 0.884);
