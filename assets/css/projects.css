@@ -1,6 +1,5 @@
 .projects {
     margin-top: 4rem;
-    margin-right: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,13 +11,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
 }
 .project__link {
     text-decoration: none;
-}
-project__img{
-    width: 550px;
 }
 .project__name {
     color: white;
