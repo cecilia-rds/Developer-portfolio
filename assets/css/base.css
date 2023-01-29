@@ -2,33 +2,33 @@ html {
     color: white;
     background-color: black;
     font-family: 'Space Grotesk', sans-serif;
+
+}
+header, main {
+    margin: 3rem 7rem;
 }
 .sociais {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 4rem;
     margin-top: 1.5rem;
+
 }
 .title {
     font-size: 4rem;
     font-weight: bold;
-    margin-left: 4.5rem;
     margin-bottom: 2.5rem;
-    margin-top: 3rem;
     line-height: 4.5rem;
 }
 
 .description_n1 {
     width: 30rem;
     margin-bottom: 1.5rem;
-    margin-left: 4.5rem;
+
     
 }
 .logo{
     display: flex;
-    margin-top: 3rem;
-    margin: 1rem 0 2rem 4rem;
     font-size: 2.2rem;
 }
 .sociais-ul {
@@ -44,7 +44,6 @@ html {
     background-color: black;
     border: none;
     border-bottom: 1px solid rgb(68, 158, 121);
-    margin-left: 4.5rem;
     color: white;
     display: block;
     font-weight: bold;
@@ -52,4 +51,5 @@ html {
 }
 footer {
     background-color: rgba(34, 33, 33, 0.884);
+
 }
