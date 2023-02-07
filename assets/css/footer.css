@@ -1,7 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(114, 116, 114, 0.966);
+    margin: 3rem 7rem 0 7rem;
+
+}
 .logo-footer {
     display: flex;
-    margin-top: 3rem;
-    margin: 1rem 0 2rem 4rem;
+    margin-top: 1.5rem;
     font-size: 2.2rem;
-    border-top: 1px solid rgba(114, 116, 114, 0.966);
+
 }
