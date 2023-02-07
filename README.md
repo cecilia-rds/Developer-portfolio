@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🌏 Deploy
 
-https://cecilia-rds.github.io/MDeveloper-portfolio
+https://cecilia-rds.github.io/Developer-portfolio
 
 
 ## :memo: Licença
