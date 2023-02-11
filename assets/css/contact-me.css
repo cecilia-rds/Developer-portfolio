@@ -1,18 +1,19 @@
 .contact {
-    margin-top: 4rem;
-    margin-right: 4rem;
-    padding-top: 4rem;;
+    margin: 3rem 7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 2rem;
+}
+.contact__title {
+    margin-top: 0;
+
 }
 .contact__description {
     display: flex;
     flex-direction: column;
-    margin-left: 4rem;
     width: 20rem;
     font-size: 20px;
-
 }
 .form{
     display: flex;
@@ -29,19 +30,15 @@ input {
     color: white;
     height: 2rem;
     width: 350px;
-
-
 }
 .input-message {
     margin-right: 1rem;
-    adding-bottom: 4rem;
+    padding-bottom: 4rem;
 
 }
 .contact__btn {
     background-color: rgba(34, 33, 33, 0.884);
-    border:none;
     border-bottom: 2px solid rgb(68, 158, 121);
-    display: block;
-    margin-left: 50%;
-    margin-top: 1.3rem;
+    margin: 1.5rem 67%;
+    width: 6.5rem;
 }
