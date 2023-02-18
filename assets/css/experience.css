@@ -1,19 +1,12 @@
 .experience {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    border-top: 2px solid rgba(72, 75, 74, 0.966);
+    margin-top: 4rem;
 }
-.table-technologies{
-    align-items: center;
-    align-content: space-between;
-    justify-items: end;
-    justify-content: space-between;
+.table-technologies {
+    margin-left: 2rem;
 }
-.tab{
-
-    margin-left: 4px;
-}
-.table-time {
-    display: none;
-
+.tab {
+    font-size: 3rem;
+    padding: 2rem 16rem 1rem 0rem;
 }
