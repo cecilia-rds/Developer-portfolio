@@ -32,13 +32,13 @@ input {
     width: 350px;
 }
 .input-message {
-    margin-right: 1rem;
     padding-bottom: 4rem;
 
 }
 .contact__btn {
     background-color: rgba(34, 33, 33, 0.884);
     border-bottom: 2px solid rgb(68, 158, 121);
-    margin: 1.5rem 67%;
+    margin-left: 70%;
+    margin-top: 1rem;
     width: 6.5rem;
 }
