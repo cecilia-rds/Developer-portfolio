@@ -6,7 +6,7 @@
     padding-top: 2rem;
 }
 .contact__title {
-    margin-top: 0;
+
 
 }
 .contact__description {
@@ -41,4 +41,14 @@ input {
     margin-left: 70%;
     margin-top: 1rem;
     width: 6.5rem;
+}
+@media screen and (max-width: 1024px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__title {
+        text-align: center;
+    }
+
 }
