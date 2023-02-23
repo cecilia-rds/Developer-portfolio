@@ -14,6 +14,15 @@ header, main {
     margin-top: 1.5rem;
 
 }
+.logo{
+    display: flex;
+    font-size: 2.2rem;
+}
+.sociais-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .title {
     font-size: 4rem;
     font-weight: bold;
@@ -24,18 +33,9 @@ header, main {
 .description_n1 {
     width: 30rem;
     margin-bottom: 1.5rem;
+}
 
-    
-}
-.logo{
-    display: flex;
-    font-size: 2.2rem;
-}
-.sociais-ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .name{
     border-bottom: 2px solid rgb(68, 158, 121);
 }
@@ -52,4 +52,28 @@ header, main {
 footer {
     background-color: rgba(34, 33, 33, 0.884);
 
+}
+@media screen and (max-width: 1024px) {
+
+    .header, main {
+        margin: 1rem;
+        text-align: center;
+    }
+    .logo { 
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
+    .sociais {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        font-size: 40ṕx;
+    }
+    .description_n1 {
+        width: auto;
+    }
+    .btn__main {
+        margin: 0 auto;
+    }
 }
