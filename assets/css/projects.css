@@ -1,11 +1,11 @@
 .projects {
     margin-top: 4rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
 }
+
 .project__item {
     display: flex;
     flex-direction: row;
@@ -27,4 +27,19 @@
 .project__technologies {
    color: rgba(255, 255, 255, 0.63);
    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .projects {
+        margin: 1rem;
+        justify-content: space-between;
+    }
+    .project__name, .project__technologies {
+        text-align: left;
+    }
+    .project__item {
+        margin: 0 auto;
+    
+    }
+
 }
