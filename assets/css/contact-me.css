@@ -50,5 +50,7 @@ input {
     .contact__title {
         text-align: center;
     }
-
+    .input {
+        margin-top: 1.5rem;
+    }
 }

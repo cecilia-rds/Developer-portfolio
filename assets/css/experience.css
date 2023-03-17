@@ -1,12 +1,26 @@
 .experience {
     display: flex;
     border-top: 2px solid rgba(72, 75, 74, 0.966);
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 .table-technologies {
     margin-left: 1rem;
 }
-.tab {
+tab {
     font-size: 3rem;
     padding: 2rem 16rem 1rem 0rem;
 }
+@media screen and (max-width: 1024px) {
+    .table-technologies {
+        text-align: center;
+    }
+    .tab {
+        display: flex;
+        flex-direction: row;
+    }
+        
+    .columns {
+
+    }
+}
+

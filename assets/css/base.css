@@ -2,10 +2,16 @@ html {
     color: white;
     background-color: black;
     font-family: 'Space Grotesk', sans-serif;
+    background-image: url("../img/foto.png");
+    background-repeat: no-repeat;
+    background-position-x: 79%;
+}
+header {
 
 }
 header, main {
     margin: 3rem 7rem;
+
 }
 .sociais {
     display: flex;
@@ -49,9 +55,18 @@ header, main {
     font-weight: bold;
     padding: 0px;
 }
+.picture {
+    background-color: rgba(34, 33, 33, 0.884);
+}
 footer {
     background-color: rgba(34, 33, 33, 0.884);
 
+}
+.container {
+
+
+
+ 
 }
 @media screen and (max-width: 1024px) {
 
