@@ -1,26 +1,21 @@
 .experience {
     display: flex;
     border-top: 2px solid rgba(72, 75, 74, 0.966);
-    margin-top: 8rem;
+    margin-top: 160px;
 }
-.table-technologies {
-    margin-left: 1rem;
-}
-tab {
-    font-size: 3rem;
+.skill-item {
     padding: 2rem 16rem 1rem 0rem;
+    font-size: 59px;
 }
-@media screen and (max-width: 1024px) {
-    .table-technologies {
-        text-align: center;
+.skill__time {
+    font-size: 1.5rem;
+    padding: 2rem 2rem 1rem 0rem;
+}
+@media screen and (max-width: 1220px) {
+    .experience {
+        display: inline-block;
     }
-    .tab {
-        display: flex;
-        flex-direction: row;
-    }
-        
-    .columns {
+   
+}
 
-    }
-}
 
