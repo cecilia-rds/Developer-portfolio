@@ -38,9 +38,9 @@ input {
 .contact__btn {
     background-color: rgba(34, 33, 33, 0.884);
     border-bottom: 2px solid rgb(68, 158, 121);
-    margin-left: 70%;
+    margin-left: 65%;
     margin-top: 1rem;
-    width: 6.5rem;
+    width: 7.5rem;
 }
 @media screen and (max-width: 1024px) {
     .contact {
@@ -53,4 +53,12 @@ input {
     .input {
         margin-top: 1.5rem;
     }
+}
+@media screen and (max-width: 834px) {
+    .contact__btn {
+        width: 7.5rem;
+        margin-left: 65%;
+
+    }
+
 }
