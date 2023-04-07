@@ -1,21 +1,51 @@
 .experience {
     display: flex;
     border-top: 2px solid rgba(72, 75, 74, 0.966);
-    margin-top: 160px;
+    margin-top: 13rem;
+
 }
 .skill-item {
-    padding: 2rem 16rem 1rem 0rem;
+
+
     font-size: 59px;
+    margin-top: 2rem;
+    width: 100%;
 }
+
 .skill__time {
+
     font-size: 1.5rem;
-    padding: 2rem 2rem 1rem 0rem;
+    padding-top: 1rem;
 }
-@media screen and (max-width: 1220px) {
+
+@media screen and (max-width: 1124px) {
     .experience {
-        display: inline-block;
+      width: auto;
     }
    
 }
 
 
+
+@media screen and (max-width: 1024px) {
+    .experience {
+      display: inline-block;
+      width: 98%;
+      text-align: center;
+      justify-content: center;
+      margin: 0 a;
+    }
+
+    .skill-item {
+        padding: 1rem rem;
+        font-size: 59px;
+
+    }
+    dl:last-child {
+        border-bottom: 2px solid rgba(72, 75, 74, 0.966);
+        padding-bottom: 3rem;
+    }
+   
+    
+
+}
