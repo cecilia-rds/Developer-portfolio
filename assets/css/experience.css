@@ -31,9 +31,8 @@
     .experience {
       display: inline-block;
       width: 98%;
-      text-align: center;
-      justify-content: center;
-      margin: 0 a;
+      margin-top: 6rem;
+
     }
 
     .skill-item {
@@ -43,7 +42,7 @@
     }
     dl:last-child {
         border-bottom: 2px solid rgba(72, 75, 74, 0.966);
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
     }
    
     
