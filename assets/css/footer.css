@@ -15,5 +15,6 @@
         .footer{
             align-items: center;
             flex-direction: column;
+            margin: 1rem 3rem 0 1rem;
         }
 }
