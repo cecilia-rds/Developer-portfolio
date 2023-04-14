@@ -21,6 +21,7 @@
 @media screen and (max-width: 1124px) {
     .experience {
       width: auto;
+      text-align: center;
     }
    
 }
