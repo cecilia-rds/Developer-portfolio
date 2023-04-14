@@ -101,11 +101,15 @@ footer {
 
     main {
         margin-top: 38rem;
-        text-align: center;
+       
 
+    }
+    .title {
+        text-align: center;
     }
     .description_n1 {
         font-size: 19px;
+        text-align: center;
     }
     .btn__main {
         font-size: 15px;
