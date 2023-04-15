@@ -53,6 +53,9 @@ header, main {
     font-weight: bold;
     padding: 0px;
 }
+.btn:hover {
+    color: rgb(68, 158, 121);red;
+}
 footer {
     background-color: rgba(34, 33, 33, 0.884);
 
