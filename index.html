@@ -130,15 +130,13 @@
                 <h2 class="title contact__title">Contact</h2>
                 <p class="contact__description">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to as soon as possible.</p>
             </div>
-                <form class="form" action="./cadastro_concluido.html" data-form>                
-                    <input name="nome" class="input" type="text" required minlength="2" placeholder="NAME">
-                    <span class="input-mensagem-erro"></span>
+                <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="20cbc6de-7535-4446-86e6-348148523bae">
+                    <input name="name" class="input" type="text" required minlength="2" placeholder="NAME">
                     <input name="email" class="input" type="email" required placeholder="EMAIL">
-                    <span class="input-mensagem-erro" ></span>
-                    <input name="message" class="input input-message" type="text" required placeholder="MESSAGE" size="200px">
-                    <span class="input-mensagem-erro"></span>
-
+                    <textarea name="message" class="input input-message" type="text" required placeholder="MESSAGE" size="200px"></textarea>
                     <button class="btn contact__btn"><href="#"> SEND MESSAGE</href></button>
+                    <input type="hidden" name="redirectTo" value="<https://github.com/cecilia-rds/Developer-portfolio/blob/main/sent.html">
                 </form>
         </section>
         <section class="footer">
