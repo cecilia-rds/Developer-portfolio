@@ -30,6 +30,7 @@
     text-transform: uppercase;
     margin-top: 0.5rem;
     font-weight: bold;
+    font-size: 18px;
 }
  .project__technologies {
     text-decoration: none;
@@ -67,10 +68,10 @@
         display: inline-block;
         margin: 1rem 0 0 0 ;
         text-decoration: none;
-        width: 115px;
+        width: 125px;
     }
     .project__btn-code {
-        width: 85px;
+        width: 97px;
         margin-left: 1rem;
     }
 
