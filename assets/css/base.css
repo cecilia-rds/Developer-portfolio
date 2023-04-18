@@ -33,17 +33,18 @@ header, main {
     margin-bottom: 2.5rem;
     line-height: 4.5rem;
 }
+.name{
+    border-bottom: 2px solid rgb(68, 158, 121);
+}
+.name:hover{
+    color: rgb(68, 158, 121);
+}
 
 .description_n1 {
     width: 30rem;
     margin-bottom: 2.5rem;
+    font-size: 18px;
 }
-
-
-.name{
-    border-bottom: 2px solid rgb(68, 158, 121);
-}
-
 .btn {
     background-color: black;
     border: none;
@@ -51,10 +52,11 @@ header, main {
     color: white;
     display: block;
     font-weight: bold;
+    font-size: 17px;
     padding: 0px;
 }
 .btn:hover {
-    color: rgb(68, 158, 121);red;
+    color: rgb(68, 158, 121);
 }
 footer {
     background-color: rgba(34, 33, 33, 0.884);
@@ -115,7 +117,7 @@ footer {
         text-align: center;
     }
     .btn__main {
-        font-size: 15px;
+        font-size: 18px;
         margin: 0 auto;
     }
 
