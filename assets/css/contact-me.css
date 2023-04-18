@@ -5,10 +5,6 @@
     justify-content: space-between;
     padding-top: 2rem;
 }
-.contact__title {
-
-
-}
 .contact__description {
     display: flex;
     flex-direction: column;
@@ -24,23 +20,26 @@
     flex-direction: row;
     justify-content: end;
 }
-input {
+input, textarea {
     background-color: rgba(34, 33, 33, 0.884);
-    border-right: none;
+    border: none;
+    border-bottom: 1px solid rgb(205, 216, 211);
     color: white;
     height: 2rem;
+    margin-top: 1px;
     width: 350px;
 }
 .input-message {
+    background-color: rgba(34, 33, 33, 0.884);
     padding-bottom: 4rem;
 
 }
 .contact__btn {
     background-color: rgba(34, 33, 33, 0.884);
     border-bottom: 2px solid rgb(68, 158, 121);
-    margin-left: 65%;
+    margin-left: 60%;
     margin-top: 1rem;
-    width: 7.5rem;
+    width: 9rem;
 }
 @media screen and (max-width: 1124px) {
     .contact {
@@ -56,8 +55,8 @@ input {
         width: 425px;
     }
     .contact__btn {
-        margin-left: 72%;
-        width: 7.5rem;
+        margin-left: 65%;
+        width: 9rem;
     }
 
 
