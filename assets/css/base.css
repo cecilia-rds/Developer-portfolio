@@ -2,10 +2,11 @@ html {
     color: white;
     background-color: black;
     font-family: 'Space Grotesk', sans-serif;
+}
+.bg {
     background-image: url("../img/cecilia.jpg");
     background-repeat: no-repeat;
     background-position-x: 88%;
-
 }
 header, main {
     margin: 3rem 7rem;
