@@ -66,8 +66,7 @@ footer {
 
 @media screen and (max-width: 1124px) {
 
-    html {
-
+    .bg {
         background-position-x: 97%;
     }
 
@@ -90,7 +89,7 @@ footer {
 
 }
 @media screen and (max-width: 1024px) {
-    html {
+    .bg {
         background-position-x: center;
         background-position-y: 9rem;
     
