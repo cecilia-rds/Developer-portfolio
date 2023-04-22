@@ -13,7 +13,6 @@
 }
 .project__img {
     width: 420px;
-
 }
 
 .project__link {
@@ -56,7 +55,7 @@
         text-align: left;
     }
     .project__img {
-        width: 400px;
+        width: 100%;
     }
     .project__name {
         margin-top: 1rem;
@@ -76,3 +75,4 @@
     }
 
 }
+
