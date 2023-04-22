@@ -6,7 +6,8 @@ html {
 .bg {
     background-image: url("../img/cecilia.jpg");
     background-repeat: no-repeat;
-    background-position-x: 88%;
+    background-position-x: 80%;
+    width: 100%;
 }
 header, main {
     margin: 3rem 7rem;
@@ -67,7 +68,9 @@ footer {
 @media screen and (max-width: 1124px) {
 
     .bg {
-        background-position-x: 97%;
+        background-position-x: 55vw;
+        width: 100%;
+        
     }
 
     header, main {
@@ -124,3 +127,4 @@ footer {
 
 
 }
+
