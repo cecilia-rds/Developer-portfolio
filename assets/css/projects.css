@@ -75,4 +75,14 @@
     }
 
 }
-
+@media screen and (max-width: 280px) {
+    .projects {
+        display: block;
+    }
+    .btn__projects {
+        margin: 0 auto;
+    }
+    .projects_items {
+        margin-top: 10%;
+    }
+}
