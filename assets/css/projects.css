@@ -8,13 +8,20 @@
 .projects {
     display: flex;
     margin-top: 4rem;
-    align-items: center;
     justify-content: space-between;
+
+}
+.btn__projects {
+    padding-top: 2rem;
+    height: 20px;
+
 }
 .project__img {
     width: 420px;
 }
-
+.project__img:hover {
+    border: 2px solid rgb(68, 158, 121);
+}
 .project__link {
     text-decoration: none;
     text-transform: none;
@@ -80,7 +87,9 @@
         display: block;
     }
     .btn__projects {
+        align-items: center;
         margin: 0 auto;
+        padding: 0;
     }
     .projects_items {
         margin-top: 10%;
