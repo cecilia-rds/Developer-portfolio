@@ -13,7 +13,6 @@
 }
 
 .skill__time {
-
     font-size: 1.2rem;
     padding-top: 1rem;
 }
@@ -21,7 +20,7 @@
 @media screen and (max-width: 1124px) {
     .experience {
       width: auto;
-      text-align: center;
+
     }
    
 }
@@ -33,21 +32,18 @@
       display: inline-block;
       width: 100%;
       margin-top: 6rem;
+      text-align: center;
 
     }
 
     .skill-item {
-        padding: 1rem rem;
-        font-size: 59px;
+        font-size: 55px;
 
     }
     dl:last-child {
         border-bottom: 2px solid rgba(72, 75, 74, 0.966);
         padding-bottom: 4rem;
     }
-   
-    
-
 }
 @media screen and (max-width: 280px) {
     .skill-item {
