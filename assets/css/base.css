@@ -23,6 +23,9 @@ header, main {
     display: flex;
     font-size: 2.2rem;
 }
+li:first-child  {
+    margin: 5% 5%;
+}
 .sociais-ul {
     display: flex;
     flex-direction: row;
