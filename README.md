@@ -2,7 +2,7 @@
 <h1 align="center"> Developer Portfolio</h1>
 
 <p align="center"> 
- Status do projeto:  :warning: (Em desenvolvimento)
+ Status do projeto: :heavy_check_mark: (Finalised)
 </p>
 
 
@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src="./assets/" width="100%">
+  <img alt="" src="assets/img/preview.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,12 +30,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-
+Inspirado no layot
+ <a href="https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x"> Single page developer portfolio</a> do FrontEnd Mentor, reune alguns dos projetos que mais destaco. 
+ A página pode se adaptar a variados tamanho de tela e possui na seção de contato a possibilidade de envio de mensagens. 
 
 
 ## 🌏 Deploy
 
-https://cecilia-rds.github.io/Developer-portfolio
+Clique <a href="https://cecilia-rds.github.io/Developer-portfolio">aqui</a> para visualizar o projeto.
+
 
 
 ## :memo: Licença
@@ -46,5 +49,5 @@ Esse projeto está sob a licença MIT.
 
 ##  Developers
 
-[<img src="https://avatars.githubusercontent.com/u/30732087?s=400&u=85602a057c1319ecffb39bcc6d00b51e116561c9&v=4" width=115 > <br> <sub>  Cecília Rodrigues </sub>
+<img src="https://avatars.githubusercontent.com/u/30732087?s=400&u=85602a057c1319ecffb39bcc6d00b51e116561c9&v=4" width=115 > <br> <sub>  Cecília Rodrigues </sub>
 
