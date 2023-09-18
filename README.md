@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Inspirado no layot
+Inspirado no layout
  <a href="https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x"> Single page developer portfolio</a> do FrontEnd Mentor, reune alguns dos projetos que mais destaco. 
  A página pode se adaptar a variados tamanho de tela e possui na seção de contato a possibilidade de envio de mensagens. 
 
